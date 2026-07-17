@@ -88,7 +88,7 @@ This module communicates directly with the Arduino hardware.
 No parking logic is allowed inside this module.
 
 ## Required Functions: 
-1. Sensor Module
+## Sensor Module
    
 initSensors()
 
@@ -100,7 +100,7 @@ isCarAtEntry()
 
 isCarAtExit()
 
-2. Gate Module
+## Gate Module
    
 initGate()
 
