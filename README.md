@@ -72,10 +72,13 @@ config.h
 config.h (already done)
 
 sensor.h
+
 sensor.cpp
 
 gate.h
+
 gate.cpp
+
 Purpose
 
 Controls all hardware devices.
@@ -86,6 +89,7 @@ No parking logic is allowed inside this module.
 
 ## Required Functions: 
 1. Sensor Module
+   
 initSensors()
 
 getEntryDistance()
@@ -97,6 +101,7 @@ isCarAtEntry()
 isCarAtExit()
 
 2. Gate Module:
+   
 initGate()
 
 openGate()
