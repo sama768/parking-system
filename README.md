@@ -109,6 +109,7 @@ isGateOpen()
 
 ## Responsibilities:
 config.h
+
 Define:
 
 Pin numbers
