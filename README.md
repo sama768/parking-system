@@ -18,7 +18,7 @@ The system is designed using modular programming to allow parallel development.
 
 ---
 
-# 2. System Architecture
+## 2. System Architecture
 
                     Vehicle
                        │
