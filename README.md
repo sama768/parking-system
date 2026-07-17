@@ -118,23 +118,33 @@ config.h
 Define:
 
 Pin numbers
+
 Detection distance
+
 Parking capacity
+
 Servo angles
+
 Timing constants
 
 sensor.cpp:
 
 Initialize ultrasonic sensors.
+
 Measure entry distance.
+
 Measure exit distance.
+
 Detect vehicles.
 
 gate.cpp:
 
 Initialize servo.
+
 Open gate.
+
 Close gate.
+
 Automatically close the gate after the configured delay.
 
 ## Module 2 — Parking Logic
@@ -176,9 +186,11 @@ isParkingEmpty()
 
 ## Files:
 lcd.h
+
 lcd.cpp
 
 alarm.h
+
 alarm.cpp
 
 ## Purpose:
@@ -211,22 +223,29 @@ turnOffAlarm()
 ## Responsibilities:
 ## LCD
 Display welcome screen.
+
 Display available spaces.
 Display parked cars.
+
 Display parking full message.
+
 Display sensor error.
 
 ## Alarm:
 Normal Mode:
 
 Green LED ON
+
 Red LED OFF
+
 Buzzer OFF
 
 Parking Full Mode:
 
 Green LED OFF
+
 Blink Red LED
+
 Blink Buzzer
 
 # 5. Communication Protocol
