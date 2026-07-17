@@ -124,12 +124,14 @@ Servo angles
 Timing constants
 
 sensor.cpp:
+
 Initialize ultrasonic sensors.
 Measure entry distance.
 Measure exit distance.
 Detect vehicles.
 
 gate.cpp:
+
 Initialize servo.
 Open gate.
 Close gate.
