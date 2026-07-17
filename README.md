@@ -18,7 +18,7 @@ The system is designed using modular programming to allow parallel development.
 
 ---
 
-## 2. System Architecture
+# 2. System Architecture
 
                     Vehicle
                        │
@@ -64,11 +64,11 @@ Parking capacity is defined in
 config.h
 
 # 4. Module Specifications
-Module 1 — Hardware Layer
+## Module 1 — Hardware Layer
 
-Developer: abdo
+## Developer: abdo
 
-Files:
+## Files:
 config.h (already done)
 
 sensor.h
@@ -84,7 +84,7 @@ This module communicates directly with the Arduino hardware.
 
 No parking logic is allowed inside this module.
 
-Required Functions: 
+## Required Functions: 
 1. Sensor Module
 initSensors()
 
@@ -107,7 +107,7 @@ updateGate()
 
 isGateOpen()
 
-3. Responsibilities:
+## Responsibilities:
 config.h
 Define:
 
@@ -129,11 +129,11 @@ Open gate.
 Close gate.
 Automatically close the gate after the configured delay.
 
-Module 2 — Parking Logic
+## Module 2 — Parking Logic
 
-Developer: Sama
+## Developer: Sama
 
-Files
+## Files
 SmartParking.ino
 
 parking.h
@@ -143,7 +143,7 @@ Purpose:
 
 Contains the complete parking management logic.
 
-Required Functions:
+## Required Functions:
 setup()
 
 loop()
@@ -162,25 +162,25 @@ isParkingFull()
 
 isParkingEmpty()
 
-Module 3 — Display Layer
+## Module 3 — Display Layer
 
-Developer: fatma
+## Developer: fatma
 
-Files:
+## Files:
 lcd.h
 lcd.cpp
 
 alarm.h
 alarm.cpp
 
-Purpose:
+## Purpose:
 
 Responsible for displaying parking information and system status.
 
 This module never handles parking logic.
 
-Required Functions:
-LCD Module:
+## Required Functions:
+## LCD Module:
 initLCD()
 
 showWelcome()
@@ -191,7 +191,7 @@ showParkingFull()
 
 showSensorError()
 
-Alarm Module:
+## Alarm Module:
 initAlarm()
 
 normalMode()
@@ -200,15 +200,15 @@ parkingFullAlarm()
 
 turnOffAlarm()
 
-Responsibilities:
-LCD
+## Responsibilities:
+## LCD
 Display welcome screen.
 Display available spaces.
 Display parked cars.
 Display parking full message.
 Display sensor error.
 
-Alarm:
+## Alarm:
 Normal Mode:
 
 Green LED ON
