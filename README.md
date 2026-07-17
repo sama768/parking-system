@@ -100,7 +100,7 @@ isCarAtEntry()
 
 isCarAtExit()
 
-2. Gate Module:
+2. Gate Module
    
 initGate()
 
@@ -231,7 +231,7 @@ Display parking full message.
 
 Display sensor error.
 
-## Alarm:
+## Alarm
 Normal Mode:
 
 Green LED ON
